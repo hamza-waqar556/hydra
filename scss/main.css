@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#footer {
+  height: 70vh;
+  background-color: #302C42;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/Vector\ 18.png);
+}
+#footer .container {
+  width: 100%;
+  height: 340px;
+  display: flex;
+}
+#footer .container .hydra-icon {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -o-border-image: linear-gradient(to bottom, #343045, #C0B7E8, #343045) 1 stretch;
+     border-image: linear-gradient(to bottom, #343045, #C0B7E8, #343045) 1 stretch;
+  border-width: 6px;
+  border-style: solid;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+#footer .container .hydra-icon img {
+  width: 185px;
+  height: 187px;
+}
+#footer .about {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -o-border-image: linear-gradient(to bottom, #343045, #C0B7E8, #343045) 1 stretch;
+     border-image: linear-gradient(to bottom, #343045, #C0B7E8, #343045) 1 stretch;
+  border-width: 6px;
+  border-style: solid;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+#footer .about ul {
+  height: 192px;
+  width: 134px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+#footer .about ul li {
+  list-style-type: none;
+  color: #ffffff;
+}
+#footer .sitemap {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -o-border-image: linear-gradient(to bottom, #343045, #C0B7E8, #343045) 1 stretch;
+     border-image: linear-gradient(to bottom, #343045, #C0B7E8, #343045) 1 stretch;
+  border-width: 6px;
+  border-style: solid;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+#footer .sitemap ul {
+  height: 192px;
+  width: 134px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+#footer .sitemap ul li {
+  list-style-type: none;
+  color: #ffffff;
+}
+#footer .social {
+  width: 25%;
+  height: 100%;
+}
+#footer .social .text {
+  width: 100%;
+  height: 33%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+#footer .social .text p {
+  color: #FFFFFF;
+  font-weight: 700;
+  width: 206px;
+  height: 20px;
+}
+#footer .social .social-platforms {
+  width: 100%;
+  height: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#footer .social .social-platforms .icons {
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+}
+#footer .social .social-platforms .icons img {
+  width: 32px;
+  height: 32px;
+}
+#footer .social .build-your-world {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer .social .build-your-world button {
+  width: 214px;
+  height: 48px;
+  background-image: linear-gradient(to right, #8176AF, #C0B7E8);
+  border-color: #8176AF;
+  border-radius: 40px;
+  cursor: pointer;
+}
+#footer .social .build-your-world button:hover {
+  border-color: white;
+}
+
+.hydra-landing-page {
+  height: 15vh;
+  width: 100%;
+  background-color: #302C42;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-style: solid;
+  border-width: 1px;
+  -o-border-image: linear-gradient(to right, #343045 15%, #C0B7E8 48%, #8176AF 52%, #343045 100%) 1 stretch;
+     border-image: linear-gradient(to right, #343045 15%, #C0B7E8 48%, #8176AF 52%, #343045 100%) 1 stretch;
+}
+.hydra-landing-page p {
+  color: #FFFFFF;
+}/*# sourceMappingURL=main.css.map */
